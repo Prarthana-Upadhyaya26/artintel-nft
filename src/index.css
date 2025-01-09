@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0A0A0A;
+  color: #E0E0E0;
+}
+
+.glass-card {
+  background: rgba(30, 30, 30, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glow-effect {
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
